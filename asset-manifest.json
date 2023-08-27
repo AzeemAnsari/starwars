@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https://github.com/AzeemAnsari/starwars/static/css/main.61bc2199.css",
+    "main.js": "/https://github.com/AzeemAnsari/starwars/static/js/main.d6e5d68e.js",
+    "index.html": "/https://github.com/AzeemAnsari/starwars/index.html",
+    "main.61bc2199.css.map": "/https://github.com/AzeemAnsari/starwars/static/css/main.61bc2199.css.map",
+    "main.d6e5d68e.js.map": "/https://github.com/AzeemAnsari/starwars/static/js/main.d6e5d68e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61bc2199.css",
+    "static/js/main.d6e5d68e.js"
+  ]
+}
