@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/starwars/static/css/main.61bc2199.css",
-    "main.js": "/starwars/static/js/main.d6e5d68e.js",
+    "main.css": "/starwars/static/css/main.f247a145.css",
+    "main.js": "/starwars/static/js/main.71851c48.js",
+    "static/media/Star_Wars.png": "/starwars/static/media/Star_Wars.5299dfc315cc3f9b129e.png",
     "index.html": "/starwars/index.html",
-    "main.61bc2199.css.map": "/starwars/static/css/main.61bc2199.css.map",
-    "main.d6e5d68e.js.map": "/starwars/static/js/main.d6e5d68e.js.map"
+    "main.f247a145.css.map": "/starwars/static/css/main.f247a145.css.map",
+    "main.71851c48.js.map": "/starwars/static/js/main.71851c48.js.map"
   },
   "entrypoints": [
-    "static/css/main.61bc2199.css",
-    "static/js/main.d6e5d68e.js"
+    "static/css/main.f247a145.css",
+    "static/js/main.71851c48.js"
   ]
 }
