@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
-import { AppContext } from "./AppContext";
+import { AppContext } from "../context/AppContext";
+import Result from "./Result";
+import Logo from '../images/Star_Wars.png'
 
 const SearchComponent = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -32,7 +34,9 @@ const SearchComponent = () => {
   };
   return (
     <>
-    <div style={{textAlign:'center',marginBottom: '15px'}}><img style={{width:'200px'}} src="./Star_Wars.png" alt="Star Wars" /></div>
+    <div style={{textAlign:'center',marginBottom: '15px'}}>
+      <img style={{width:'200px'}} src={Logo} alt="Star Wars" />
+    </div>
     <div className="search-container">
       <input
         className="search-input"
@@ -54,8 +58,8 @@ const SearchComponent = () => {
         )}
       </div>
       
-      {/* I can design it, but for now just showing the JSON result */}
-      {selectedCharacter && <div className="selected-character">{JSON.stringify(selectedCharacter, null, 2)}</div>}
+      {/* Selected Character Result */}
+      {selectedCharacter && <Result />}
     </>
   );
 };

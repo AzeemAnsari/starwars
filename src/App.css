@@ -42,4 +42,13 @@
   width: 380px;
   margin: 10px auto;
   max-width: 100%;
+  list-style: none;
+}
+.selected-character li{
+  padding:10px 5px;
+  font-size: 18px;
+}
+.selected-character li span{
+  display: inline-block;
+  width: 50%;
 }
